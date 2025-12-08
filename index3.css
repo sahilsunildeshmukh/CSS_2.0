@@ -1,0 +1,53 @@
+#box1 {
+  background-color: darkgreen;
+  height: 50px;
+  width: 500px;
+  text-align: center;
+}
+
+h3 {
+  color: aqua;
+}
+
+.box {
+  height: 50px;
+  width: 100px;
+}
+
+#box2 {
+  text-decoration: underline;
+}
+
+#box3 {
+  text-decoration: overline;
+}
+
+#box4 {
+  text-decoration: line-through;
+}
+
+#link {
+  text-decoration: none;
+}
+
+#text1{
+    color: aquamarine;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: aqua;
+}
+
+#text2{
+    text-decoration: line-through;
+    text-decoration-style: dashed;
+}
+
+#text3{
+    text-decoration:overline;
+    text-decoration-style: double;
+}
+
+#text4{
+    text-decoration: underline;
+    text-decoration-style: solid;
+}

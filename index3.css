@@ -5,7 +5,7 @@
   text-align: center;
 }
 
-h3 {
+#box1 h3 {
   color: aqua;
 }
 
@@ -50,4 +50,24 @@ h3 {
 #text4{
     text-decoration: underline;
     text-decoration-style: solid;
+}
+
+#Box1{
+    text-transform: capitalize;
+}
+
+#Box2{
+    text-transform: lowercase;
+}
+
+#Box3{
+    text-transform: none;
+}
+
+#first{
+    line-height: 6px;
+}
+
+#second{
+    line-height: 100px;
 }

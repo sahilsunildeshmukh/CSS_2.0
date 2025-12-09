@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 #box1 {
   background-color: darkgreen;
   height: 50px;
@@ -30,44 +32,75 @@
   text-decoration: none;
 }
 
-#text1{
-    color: aquamarine;
-    text-decoration: underline;
-    text-decoration-style: wavy;
-    text-decoration-color: aqua;
+#text1 {
+  color: aquamarine;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: aqua;
 }
 
-#text2{
-    text-decoration: line-through;
-    text-decoration-style: dashed;
+#text2 {
+  text-decoration: line-through;
+  text-decoration-style: dashed;
 }
 
-#text3{
-    text-decoration:overline;
-    text-decoration-style: double;
+#text3 {
+  text-decoration: overline;
+  text-decoration-style: double;
 }
 
-#text4{
-    text-decoration: underline;
-    text-decoration-style: solid;
+#text4 {
+  text-decoration: underline;
+  text-decoration-style: solid;
 }
 
-#Box1{
-    text-transform: capitalize;
+#Box1 {
+  text-transform: capitalize;
 }
 
-#Box2{
-    text-transform: lowercase;
+#Box2 {
+  text-transform: lowercase;
 }
 
-#Box3{
-    text-transform: none;
+#Box3 {
+  text-transform: none;
 }
 
-#first{
-    line-height: 6px;
+#first {
+  line-height: 6px;
 }
 
-#second{
-    line-height: 100px;
+#second {
+  line-height: 100px;
+}
+
+#font1 {
+  font-size: 20px;
+}
+
+#font2 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+#font3 {
+  font-style: italic;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+#font4 {
+  font-style: oblique;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+#font5 {
+    font-family:"Dancing Script", cursive, sans-serif;
+}
+
+#home{
+    color: chartreuse;
+    font-size: 50px;
+    font-weight: 200px;
 }

@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: blueviolet;
+  margin: 5px;
+}
+
+.line1 {
+  display: block;
+}
+
+.line2 {
+  display: inline;
+}
+
+.line3 {
+  display: inline-block;
+}
+
+.line4 {
+  display: none;
+}
+
+.b1 {
+  height: 100px;
+  width: 200px;
+}
+
+#first {
+  background-color: cornflowerblue;
+}
+
+#second {
+  background-color: chocolate;
+  width: 50%;
+  height: 50%;
+}

@@ -41,14 +41,43 @@
   height: 50%;
 }
 
-#one{
-  width:100vw;
+#one {
+  width: 100vw;
   height: 100px;
   background-color: blue;
 }
 
-#two{
+#two {
   width: 25rem;
   background-color: bisque;
   height: 25%;
+}
+
+.area {
+  height: 100px;
+  width: 100px;
+  margin: 25px;
+  background-color: aquamarine;
+}
+
+#area1 {
+  position: absolute;
+}
+
+#area2 {
+  top: 50px;
+  left: 90px;
+  position: relative;
+}
+
+#area3 {
+  top: 50px;
+  left: 90px;
+  position: fixed;
+}
+
+#area4{
+  top: 25px;
+  left: 100px;
+  position: static;
 }

@@ -15,7 +15,7 @@ nav {
   justify-content: space-between;
   background-color: black;
   color: white;
-  padding: 10px 20px;
+  padding: 10px 30px;
   font-family: Helvetica, sans-serif;
 }
 
@@ -26,28 +26,45 @@ nav {
   gap: 15px;
 }
 
-#nav1 h6{
+#nav1 h6 {
   font-size: 17px;
   width: 50px;
+  font-weight: 700;
 }
 
 #nav2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 25px;
+  gap: 35px;
 }
 
-#nav2 h4{
+#nav2 h4 {
   font-size: 17px;
+  font-weight: 300;
 }
 
 #nav1 img {
   height: 50px;
 }
 
-.icon{
+#nav2 h5 {
   display: none;
+  font-size: 20px;
 }
 
+@media (max-width: 600px) {
+  #nav1 h6 {
+    font-size: 12px;
+  }
+  #nav1 img {
+    height: 40px;
+  }
+  #nav2 h4 {
+    display: none;
+  }
 
+  #nav2 h5 {
+    display: block;
+  }
+}

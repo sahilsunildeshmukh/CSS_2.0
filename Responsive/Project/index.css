@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+@font-face {
+    font-family: neue;
+    src: url(./Font/NeueMachina-Regular_DQCmjH1st.ttf);
+}
+
+@font-face {
+    font-family: neue;
+    src: url(./Font/NeueMachina-Regular_DQCmjH1st.ttf);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: whitesmoke;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 70px;
+}
+
+#nav1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#nav1 img {
+  height: 45px;
+}
+
+#nav h4 {
+  font-family: neue;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+#nav2 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+#nav2 a {
+  text-decoration: none;
+  /* font-family: monospace; */
+  font-family: "Comic Neue", cursive;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+#nav2 img {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+

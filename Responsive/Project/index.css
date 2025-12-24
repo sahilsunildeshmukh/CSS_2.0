@@ -31,6 +31,8 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 15px 70px;
+  position: fixed;
+  width: 100%;
 }
 
 #nav1 {
@@ -66,8 +68,55 @@ nav {
   font-weight: 100;
 }
 
+nav a i {
+  font-size: 20px;
+}
+
 #nav2 img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+#nav3 {
+  display: none;
+  align-items: center;
+  gap: 30px;
+}
+
+#nav3 a {
+  text-decoration: none;
+  /* font-family: monospace; */
+  /* font-family: "Comic Neue", cursive; */
+  font-family: helvetica;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+#nav3 img {
   height: 25px;
   width: 25px;
   border-radius: 50%;
+}
+
+@media (max-width: 600px) {
+  nav {
+    padding: 10px 30px;
+  }
+
+  #nav1 h4{
+    font-size: 12px;
+  }
+
+  #nav1 img{
+    height: 30px;
+  }
+
+  #nav2{
+    display: none;
+  }
+
+  #nav3{
+    display: flex;
+  }
 }
